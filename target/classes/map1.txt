@@ -1,10 +1,6 @@
 Cell
 You find yourself alone in an unlocked cell under some building. The whole room is lit by a single torch.
-<<<<<<< HEAD
-ITEM,Guard
-=======
 ITEM,MONSTER
->>>>>>> 3597c58a74f553191ccddb999ac3145955354e16
 Common Room,null,null,Hall
 Hall
 You find half eaten food laying on the tables.

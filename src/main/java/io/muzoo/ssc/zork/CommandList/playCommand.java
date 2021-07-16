@@ -40,8 +40,16 @@ public class playCommand extends Commands {
         }
     }
 
+<<<<<<< HEAD
     @Override
     public String getCmd(){
         return "play";
     }
 }
+=======
+   @Override
+   public String getCmd(){
+        return "play";
+   }
+}
+>>>>>>> 3597c58a74f553191ccddb999ac3145955354e16

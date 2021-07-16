@@ -55,4 +55,8 @@ public class moveCommand extends Commands {
     public String getCmd(){
         return "move";
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3597c58a74f553191ccddb999ac3145955354e16

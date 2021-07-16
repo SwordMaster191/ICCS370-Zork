@@ -16,7 +16,10 @@ public class CommandFactory {
         commandMap.put("end", new endCommand(game));
         commandMap.put("play", new playCommand(game));
         commandMap.put("move", new moveCommand(game));
+<<<<<<< HEAD
         commandMap.put("attack", new attackCommand(game));
+=======
+>>>>>>> 3597c58a74f553191ccddb999ac3145955354e16
 
     }
     public static Map<String, Commands> getCommandMap() {

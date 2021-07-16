@@ -27,4 +27,8 @@ public class exitCommand extends Commands {
         return "exit";
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3597c58a74f553191ccddb999ac3145955354e16

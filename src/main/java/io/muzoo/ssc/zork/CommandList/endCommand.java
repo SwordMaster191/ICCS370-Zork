@@ -28,4 +28,8 @@ public class endCommand extends Commands {
         return "quit";
     }
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 3597c58a74f553191ccddb999ac3145955354e16
