@@ -3,17 +3,12 @@ package io.muzoo.ssc.zork.CommandList;
 import io.muzoo.ssc.zork.Command.Commands;
 import io.muzoo.ssc.zork.ZorkGame;
 
-public class exit extends Commands {
+public class exitCommand extends Commands {
 
     private ZorkGame game;
 
-    public exit(ZorkGame game){
+    public exitCommand(ZorkGame game){
         this.game = game;
-    }
-
-    @Override
-    public int numArgs(){
-        return 0;
     }
 
     @Override

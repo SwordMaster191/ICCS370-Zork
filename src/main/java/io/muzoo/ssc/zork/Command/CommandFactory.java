@@ -1,8 +1,7 @@
 
 package io.muzoo.ssc.zork.Command;
 
-import io.muzoo.ssc.zork.CommandList.exit;
-import io.muzoo.ssc.zork.CommandList.help;
+import io.muzoo.ssc.zork.CommandList.*;
 import io.muzoo.ssc.zork.ZorkGame;
 
 import java.util.HashMap;
@@ -12,11 +11,13 @@ public class CommandFactory {
     public static Map<String, Commands> commandMap = new HashMap<>();
 
     public void putInCommand(ZorkGame game){
-        commandMap.put("exit", new exit(game));
-        commandMap.put("help", new help(game));
+        commandMap.put("exit", new exitCommand(game));
+        commandMap.put("help", new helpCommand(game));
+        commandMap.put("end", new endCommand(game));
+        commandMap.put("play", new playCommand(game));
+        commandMap.put("move", new moveCommand(game));
 
     }
-
     public static Map<String, Commands> getCommandMap() {
         return commandMap;
     }

@@ -4,17 +4,12 @@ import io.muzoo.ssc.zork.Command.CommandFactory;
 import io.muzoo.ssc.zork.Command.Commands;
 import io.muzoo.ssc.zork.ZorkGame;
 
-public class help extends Commands {
+public class helpCommand extends Commands {
 
     private ZorkGame game;
 
-    public help(ZorkGame game){
+    public helpCommand(ZorkGame game){
         this.game = game;
-    }
-
-    @Override
-    public int numArgs(){
-        return 0;
     }
 
     @Override
