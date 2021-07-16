@@ -31,10 +31,5 @@ public class MapGeneration {
         listOfRoom = generateRooms.create(file);
         room = listOfRoom.get(0);
     }
-<<<<<<< HEAD
 }
-=======
-    }
-
->>>>>>> 3597c58a74f553191ccddb999ac3145955354e16
 

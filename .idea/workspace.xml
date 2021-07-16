@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8698735-1253-4cd7-ab72-03b43208136b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/attackCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/endCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/exitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/helpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/moveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/playCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Guard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Stats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/monsterGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/MapGeneration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Output.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/CommandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/Handle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/Handle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/RoomGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/RoomGeneration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ZorkGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ZorkGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/map1.txt" afterDir="false" />
-    </list>
+    <list default="true" id="c8698735-1253-4cd7-ab72-03b43208136b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,17 +60,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -110,7 +76,7 @@
       <updated>1626369996766</updated>
       <workItem from="1626369998265" duration="5095000" />
       <workItem from="1626404257302" duration="19083000" />
-      <workItem from="1626462647378" duration="456000" />
+      <workItem from="1626462647378" duration="1125000" />
     </task>
     <servers />
   </component>

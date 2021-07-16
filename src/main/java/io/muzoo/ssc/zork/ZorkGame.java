@@ -3,10 +3,7 @@ package io.muzoo.ssc.zork;
 import io.muzoo.ssc.zork.Command.Commands;
 import io.muzoo.ssc.zork.Command.CommandFactory;
 import io.muzoo.ssc.zork.Command.Handle;
-<<<<<<< HEAD
 import io.muzoo.ssc.zork.EntityPackage.Player;
-=======
->>>>>>> 3597c58a74f553191ccddb999ac3145955354e16
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,10 +19,7 @@ public class ZorkGame {
     private final CommandFactory factory = new CommandFactory();
     private final Handle handler = new Handle();
     public static int quitStatus = 0;
-<<<<<<< HEAD
     public static Player player = new Player();
-=======
->>>>>>> 3597c58a74f553191ccddb999ac3145955354e16
     public static String currentRoom;
 
     public void loop(){
@@ -36,10 +30,6 @@ public class ZorkGame {
         while(true){
             if (gameStatus == 1) inGame();
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 3597c58a74f553191ccddb999ac3145955354e16
             Scanner scanner = new Scanner(System.in);
             System.out.print(">");
             String playerOption = scanner.nextLine().toLowerCase();
