@@ -1,0 +1,32 @@
+Cell
+You find yourself alone in an unlocked cell under some building. The whole room is lit by a single torch.
+ITEM,Guard
+Common Room,null,null,Hall
+Hall
+You find half eaten food laying on the tables.
+ITEM,MONSTER
+Armory,Courtyard,Common Room,Kitchen
+Kitchen
+None of the crucial supplies were looted, it seems like it's not the ninja this time...
+ITEM, MONSTER
+null,Hall,null,null
+Common Room
+Looks like no one is here...
+ITEM,MONSTER
+Armory,null,null,null
+Armory
+The storage containers are stacked upon each other like a defensive emplacement.
+ITEM,MONSTER
+Courtyard,null,Common Room,Infirmary
+Infirmary
+Bodies lay lifeless amongst the clinical beds.
+ITEM,MONSTER
+null,Armory,null,null
+Courtyard
+The moon's particularly large tonight... I wonder what's going on...
+ITEM,MONSTER
+Hall,Bridge,null,null
+Bridge
+Looks like the bridge is closed for outside visitor...
+ITEM,MONSTER
+Courtyard,null,null,null

@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8698735-1253-4cd7-ab72-03b43208136b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/Commands.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/attackCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/endCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/exitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/helpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/moveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/playCommand.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Enemy.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Guard.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Stats.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/monsterGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/MapGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/CommandFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/Handle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Command/Handle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Map/Room.java" afterDir="false" />
@@ -52,10 +62,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Zork-2d939fb5e2d233aad83fab04fac3188ab144deb6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,15 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626369996766</updated>
       <workItem from="1626369998265" duration="5095000" />
-      <workItem from="1626404257302" duration="17900000" />
+      <workItem from="1626404257302" duration="19083000" />
+      <workItem from="1626462647378" duration="456000" />
     </task>
     <servers />
   </component>
