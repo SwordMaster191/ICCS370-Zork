@@ -33,22 +33,23 @@ public class takeCommand extends Commands {
         String item = string[1];
 
         for(Room room: MapGeneration.listOfRoom){
-            if (room.item == null){
-                System.out.println("No item in the current room.");
-                return;
-            }
-            else{
-                if(!item.equals(room.item.name.toLowerCase())){
-                    System.out.println("Item does not exist in the room!");
-                    System.out.println("You can take the following item from this room: " + room.item.name);
+            if(ZorkGame.currentRoom.equals(room.name)){
+                if (room.item == null) {
+                    System.out.println("No item in the current room.");
                     return;
-                }
-                if(item.equals(room.item.name.toLowerCase())){
-                    Item putInInventory = room.item;
-                    game.player.inventory.put(item, putInInventory);
-                    room.item = null;
-                    System.out.println("You have successfully taken " + room.item.name + " from this room!");
-                    return;
+                } else {
+                    if (!item.equals(room.item.name.toLowerCase())) {
+                        System.out.println("Item does not exist in the room!");
+                        System.out.println("You can take the following item from this room: " + room.item.name);
+                        return;
+                    }
+                    if (item.equals(room.item.name.toLowerCase())) {
+                        Item putInInventory = room.item;
+                        game.player.inventory.put(item, putInInventory);
+                        room.item = null;
+                        System.out.println("You have successfully taken " + item + " from this room!");
+                        return;
+                    }
                 }
             }
         }

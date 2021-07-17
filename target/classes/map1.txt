@@ -1,32 +1,57 @@
 Cell
 You find yourself alone in an unlocked cell under some building. The whole room is lit by a single torch.
-ITEM,Guard
-Common Room,null,null,Hall
+ITEM,MONSTER
+null,Common Room,Hall,null
 Hall
 You find half eaten food laying on the tables.
 ITEM,MONSTER
-Armory,Courtyard,Common Room,Kitchen
-Kitchen
-None of the crucial supplies were looted, it seems like it's not the ninja this time...
+Onzen,Cell,Rest Area,Eden Garden
+Onzen
+A place to enjoy your time off, it is unusually quiet…
+Medkit,MONSTER
+null,null,null,Hall
+Rest Area
+Your own personal ward, but I’m afraid that I will not be able to rest at this time
 ITEM,MONSTER
-null,Hall,null,null
+null,null,Hall,null
+Eden Garden
+A beautiful garden situated in the middle of the land. However, it seems to be a bit more dull than usual.
+ITEM,Guard
+Hall,null,null,Bar
+Bar
+A bar to enjoy your time off here, it's closed today...
+ITEM,Guard
+Eden Garden,null,Bridge,null
+Bridge
+A bridge connecting the bar and dock together.
+ITEM,MONSTER
+null,Bar,Dock,null
+Dock
+A place where ship docks from abroad, you see some cargo on the dock.
+Armor,Guard
+Courtyard,null,null,null
+Courtyard
+The moon's particularly large tonight... I wonder what's going on...
+ITEM,Ninja
+Common Room,Church,null,Dock
+Church
+The Church of Favonius, looks like no one is here...
+Smite,Samurai
+Armory,null,Courtyard,null
 Common Room
 Looks like no one is here...
 ITEM,MONSTER
-Armory,Cell,null,null
+Kitchen,Armory,Cell,Courtyard
+Kitchen
+None of the crucial supplies were looted, it seems like it's not the ninja this time...
+ITEM,MONSTER
+null,Infirmary,null,Common Room
 Armory
 The storage containers are stacked upon each other like a defensive emplacement.
-ITEM,Ninja
-Courtyard,null,Common Room,Infirmary
+Greatsword,Ninja
+Infirmary,null,Common Room,Church
 Infirmary
 Bodies lay lifeless amongst the clinical beds.
-ITEM,MONSTER
-null,Armory,null,null
-Courtyard
-The moon's particularly large tonight... I wonder what's going on...
-ITEM,MONSTER
-Hall,Bridge,null,null
-Bridge
-Looks like the bridge is closed for outside visitor...
-ITEM,MONSTER
-Courtyard,null,null,null
+Medkit,MONSTER
+null,null,Kitchen,Armory
+

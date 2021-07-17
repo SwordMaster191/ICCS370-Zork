@@ -23,6 +23,7 @@ public class CommandFactory {
         commandMap.put("info", new infoCommand(game));
         commandMap.put("load", new loadCommand(game));
         commandMap.put("save", new saveCommand(game));
+        commandMap.put("run", new runCommand(game));
 
     }
     public static Map<String, Commands> getCommandMap() {

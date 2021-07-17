@@ -30,7 +30,7 @@ public class Output {
                 System.out.println(room.desc);
                 System.out.println("");
                 if(room.enemy == null) {
-                    System.out.println("Good news, no monster in this room!\n");
+                    System.out.println("Good news, no enemy in this room!\n");
                 }
                 else{
                     System.out.println("Enemy in this room: " + room.enemy.name);
@@ -70,7 +70,7 @@ public class Output {
                 System.out.println(room.enemy.description);
 
                 System.out.println("\nWhat will you do?");
-                System.out.println("<attack>, <use>, <help>");
+                System.out.println("<attack>, <use>, <info>, <run>");
             }
         }
     }

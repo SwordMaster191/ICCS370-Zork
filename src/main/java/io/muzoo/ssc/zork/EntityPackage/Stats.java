@@ -13,4 +13,5 @@ public abstract class Stats {
     public double defend;
     public int maxhp;
     public int hp;
+    public int boss;
 }

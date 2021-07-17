@@ -9,6 +9,7 @@ public class Ninja extends Stats{
         attack = 20;
         defend = 0.6;
         agility = 0.5;
+        boss = 0;
         inventory = null;
     }
 }

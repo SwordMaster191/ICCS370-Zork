@@ -32,6 +32,9 @@ public class playCommand extends Commands {
             generate.map(array);
             ZorkGame.gameStatus = 1;
             ZorkGame.quitStatus = 0;
+            ZorkGame.winStatus = 0;
+            ZorkGame.battleStatus = 0;
+            //clean slate
 
         }
         catch (FileNotFoundException e){

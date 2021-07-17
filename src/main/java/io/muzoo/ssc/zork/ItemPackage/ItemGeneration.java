@@ -14,6 +14,12 @@ public class ItemGeneration {
         if(item.equals("Greatsword")){
             return new Greatsword();
         }
+        if(item.equals("Armor")){
+            return new Armor();
+        }
+        if(item.equals("Smite")){
+            return new Smite();
+        }
         return null;
     }
 }

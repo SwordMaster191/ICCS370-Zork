@@ -5,33 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8698735-1253-4cd7-ab72-03b43208136b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/infoCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/loadCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/saveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/runCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Samurai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/Smite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/infoCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/loadCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/saveCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Samurai.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ItemPackage/Armor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ItemPackage/Smite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/endCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/quitCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/goCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/goCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/loadCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/loadCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/playCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/playCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/saveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/saveCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/takeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/takeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/useCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandList/useCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandPackage/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandPackage/CommandFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandPackage/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/CommandPackage/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Enemy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Guard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Guard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Ninja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Ninja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Stats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/Stats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/monsterGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/enemyGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/enemyGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/EntityPackage/enemyGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/ItemGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/ItemGeneration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ItemPackage/Sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/MapPackage/RoomGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/MapPackage/RoomGeneration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/Output.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ZorkGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/muzoo/ssc/zork/ZorkGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/map1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/endCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/goCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/goCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/playCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/playCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/takeCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandList/takeCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandPackage/CommandFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandPackage/CommandFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandPackage/Commands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/CommandPackage/Commands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Enemy.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Guard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Guard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/monsterGeneration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Ninja.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Ninja.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Stats.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/Stats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/enemyGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/EntityPackage/enemyGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ItemPackage/ItemGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ItemPackage/ItemGeneration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ItemPackage/Sword.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ItemPackage/Sword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/MapPackage/RoomGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/MapPackage/RoomGeneration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/Output.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/Output.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ZorkGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ZorkGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/muzoo/ssc/zork/ZorkGame.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/map1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/map1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,13 +109,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

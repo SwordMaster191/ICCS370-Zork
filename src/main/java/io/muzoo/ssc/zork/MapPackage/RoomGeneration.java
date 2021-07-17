@@ -14,8 +14,8 @@ public class RoomGeneration extends Room{
     public String item = "";
     public ArrayList<Room> create(String filename) throws FileNotFoundException {
         ArrayList<Room> rooms = new ArrayList<Room>();
-        /*File filePath= new File("D://MUIC//OOC//ICCS370-Zork//src//main//resources//" + filename);*/
-        File filePath= new File("/Users/kritvisitstump/Desktop/MUIC/OOC/ICCS370-Zork/src/main/resources/" + filename);
+        File filePath= new File("D://MUIC//OOC//ICCS370-Zork//src//main//resources//" + filename);
+        //File filePath= new File("/Users/kritvisitstump/Desktop/MUIC/OOC/ICCS370-Zork/src/main/resources/" + filename);
         System.out.println(filePath.getName());
         Scanner scanner = new Scanner(filePath);
 
@@ -32,7 +32,6 @@ public class RoomGeneration extends Room{
             enemy = entity[1];
             if (enemy.equals("MONSTER")) room.enemy = null;
             else {
-                System.out.println("Here");
                 room.enemy = enemyGeneration.createEnemy(enemy);
             }
 
@@ -41,8 +40,8 @@ public class RoomGeneration extends Room{
 
             room.neighbours.put("north", line[0]);
             room.neighbours.put("east", line[1]);
-            room.neighbours.put("south", line[2]);
-            room.neighbours.put("west", line[3]);
+            room.neighbours.put("west", line[2]);
+            room.neighbours.put("south", line[3]);
 
             rooms.add(room);
 

@@ -30,7 +30,7 @@ public class saveCommand extends Commands {
     public void execute(ZorkGame game, String[] array) throws FileNotFoundException {
         game.save.remove(game.save.size()-1);
 
-        try(FileOutputStream output = new FileOutputStream("filepath")){
+        try(FileOutputStream output = new FileOutputStream("//MUIC//OOC//ICCS370-Zork//src//main//resources//zorkSaveGame.txt")){
 
             Iterator<String> loop = game.save.iterator();
             PrintWriter print = new PrintWriter(output, true);

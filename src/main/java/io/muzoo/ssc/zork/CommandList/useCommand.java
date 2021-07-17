@@ -34,7 +34,7 @@ public class useCommand extends Commands {
         else{
             String itemToUse = array[1];
             if (ZorkGame.player.inventory.containsKey(itemToUse)){
-                if(ZorkGame.player.inventory.get(itemToUse).itemType == 1){
+                if(ZorkGame.player.inventory.get(itemToUse).itemType == 1){ //Type 1: Medkit
                     ZorkGame.player.hp += ZorkGame.player.inventory.get(itemToUse).buff;
                     ZorkGame.player.inventory.remove(itemToUse);
                     System.out.println("Used " + ZorkGame.player.inventory.get(itemToUse).name);
