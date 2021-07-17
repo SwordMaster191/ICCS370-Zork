@@ -1,4 +1,4 @@
-package io.muzoo.ssc.zork.Command;
+package io.muzoo.ssc.zork.CommandPackage;
 
 
 public class Handle { //get player input

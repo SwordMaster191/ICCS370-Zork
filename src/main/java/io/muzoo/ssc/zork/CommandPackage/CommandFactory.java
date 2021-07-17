@@ -1,5 +1,5 @@
 
-package io.muzoo.ssc.zork.Command;
+package io.muzoo.ssc.zork.CommandPackage;
 
 import io.muzoo.ssc.zork.CommandList.*;
 import io.muzoo.ssc.zork.ZorkGame;
@@ -15,8 +15,11 @@ public class CommandFactory {
         commandMap.put("help", new helpCommand(game));
         commandMap.put("end", new endCommand(game));
         commandMap.put("play", new playCommand(game));
-        commandMap.put("move", new moveCommand(game));
+        commandMap.put("move", new goCommand(game));
         commandMap.put("attack", new attackCommand(game));
+        commandMap.put("use", new useCommand(game));
+        commandMap.put("take", new takeCommand(game));
+        commandMap.put("drop", new dropCommand(game));
 
     }
     public static Map<String, Commands> getCommandMap() {

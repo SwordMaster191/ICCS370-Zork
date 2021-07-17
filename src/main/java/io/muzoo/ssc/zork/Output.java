@@ -1,7 +1,7 @@
 package io.muzoo.ssc.zork;
 
-import io.muzoo.ssc.zork.Map.MapGeneration;
-import io.muzoo.ssc.zork.Map.Room;
+import io.muzoo.ssc.zork.MapPackage.MapGeneration;
+import io.muzoo.ssc.zork.MapPackage.Room;
 
 public class Output {
     public void print(String msg){
@@ -43,6 +43,18 @@ public class Output {
             System.out.println(MapGeneration.listOfRoom.get(0).desc);
 
             System.out.println("Where you can go: " + MapGeneration.listOfRoom.get(0).neighbours);
+        }
+    }
+
+    public static void displayBattle(){
+        for(Room room: MapGeneration.listOfRoom){
+            if(ZorkGame.currentRoom.equals(room.name)){
+                System.out.println("You have encountered an enemy: " + room.enemy.name);
+                System.out.println(room.enemy.description);
+
+                System.out.println("\nWhat will you do?");
+                System.out.println("<attack>, <use>, <help>");
+            }
         }
     }
 

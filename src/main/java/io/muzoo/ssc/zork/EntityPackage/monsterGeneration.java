@@ -1,6 +1,6 @@
 package io.muzoo.ssc.zork.EntityPackage;
 
-import io.muzoo.ssc.zork.Map.RoomGeneration;
+import io.muzoo.ssc.zork.MapPackage.RoomGeneration;
 
 public class monsterGeneration {
 
@@ -10,6 +10,9 @@ public class monsterGeneration {
     public static Stats createEnemy(){
         if(enemy.equals("Guard")) {
             return new Guard();
+        }
+        if(enemy.equals("Ninja")){
+            return new Ninja();
         }
         return null;
     }

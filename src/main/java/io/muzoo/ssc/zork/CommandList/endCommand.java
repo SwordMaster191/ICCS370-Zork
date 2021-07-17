@@ -1,6 +1,6 @@
 package io.muzoo.ssc.zork.CommandList;
 
-import io.muzoo.ssc.zork.Command.Commands;
+import io.muzoo.ssc.zork.CommandPackage.Commands;
 import io.muzoo.ssc.zork.Output;
 import io.muzoo.ssc.zork.ZorkGame;
 

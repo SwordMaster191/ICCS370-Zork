@@ -1,4 +1,4 @@
-package io.muzoo.ssc.zork.Command;
+package io.muzoo.ssc.zork.CommandPackage;
 
 import io.muzoo.ssc.zork.ZorkGame;
 

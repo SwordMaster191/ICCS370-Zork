@@ -1,16 +1,18 @@
-package io.muzoo.ssc.zork.Map;
+package io.muzoo.ssc.zork.MapPackage;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 import io.muzoo.ssc.zork.EntityPackage.*;
+import io.muzoo.ssc.zork.ItemPackage.ItemGeneration;
 
 
 public class RoomGeneration extends Room{
 
-    private static String enemy = "";
-    public static ArrayList<Room> create(String filename) throws FileNotFoundException {
+    public String enemy = "";
+    public String item = "";
+    public ArrayList<Room> create(String filename) throws FileNotFoundException {
         ArrayList<Room> rooms = new ArrayList<Room>();
         File filePath= new File("D://MUIC//OOC//ICCS370-Zork//src//main//resources//" + filename);
         System.out.println(filePath.getName());
@@ -22,12 +24,15 @@ public class RoomGeneration extends Room{
             room.name = scanner.nextLine();
             room.desc = scanner.nextLine();
 
-            //skip items and monsters for now
             String[] entity = scanner.nextLine().split(",");
+            item = entity[0];
+            if(item.equals("ITEM")) room.item = null;
+            else room.item = ItemGeneration.createItem(item);
             enemy = entity[1];
 
             if (enemy.equals("MONSTER")) room.enemy = null;
             else room.enemy = monsterGeneration.createEnemy();
+
 
             String[] line = scanner.nextLine().split(",");
 

@@ -1,9 +1,8 @@
 package io.muzoo.ssc.zork.CommandList;
 
-import io.muzoo.ssc.zork.Command.Commands;
-import io.muzoo.ssc.zork.EntityPackage.Stats;
-import io.muzoo.ssc.zork.Map.MapGeneration;
-import io.muzoo.ssc.zork.Map.Room;
+import io.muzoo.ssc.zork.CommandPackage.Commands;
+import io.muzoo.ssc.zork.MapPackage.MapGeneration;
+import io.muzoo.ssc.zork.MapPackage.Room;
 import io.muzoo.ssc.zork.ZorkGame;
 public class attackCommand extends Commands {
 
@@ -29,39 +28,23 @@ public class attackCommand extends Commands {
         String currentRoom = ZorkGame.currentRoom;
 
         for (Room room: MapGeneration.listOfRoom){
-            if (currentRoom.equals(room.name) && room.enemy != null){
-                System.out.println("===============================");
-                System.out.println("Attacking: " + room.enemy.name);
-                System.out.println(("Weapon of choice: " + weapon));
-                room.enemy.hp = room.enemy.hp - ZorkGame.player.attack;
-                ZorkGame.player.hp = ZorkGame.player.hp - room.enemy.attack;
-                System.out.println("===============================");
-                System.out.println("Success!");
-                System.out.println("Damage dealt to " + room.enemy.name + ": " + ZorkGame.player.attack + "\n");
-                System.out.println("In return, you receive " + room.enemy.attack + " from " + room.enemy.name);
-                System.out.println("===============================");
-
-
-
-                if (ZorkGame.player.hp <= 0){
-                    System.out.println("You died, game's over!");
-                    System.out.println("You will be returned to the menu shortly...");
-                    ZorkGame.quitStatus = 1;
+            if(ZorkGame.currentRoom.equals(room.name)){
+                if (room.enemy == null) {
+                    System.out.println("===============================");
+                    System.out.println("Good news! I've scouted left and right and there seems to be no enemy in this room!");
                     return;
                 }
 
-                if(room.enemy.hp <= 0){
-                    System.out.println("You're winner, you have defeated " + room.enemy.name + "!");
-                    room.enemy = null;
-                    return;
-                }
-            }
-
-            if (room.enemy == null){
-                System.out.println("===============================");
-                System.out.println("Good news! I've scouted left and right and there seems to be no enemy in this room!");
-                return;
             }
         }
+        if (string.length < 2) {
+            System.out.println("Invalid attack command, please use <attack [weapon]> to attack!");
+            return;
+        }
+
+        ZorkGame.battleStatus = 1;
+        System.out.println("There are enemy in this room, launching attack...");
+        ZorkGame.battleMechanic(string[0], string[1]);
+
     }
 }

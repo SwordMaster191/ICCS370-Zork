@@ -1,12 +1,11 @@
 package io.muzoo.ssc.zork.CommandList;
 
-import io.muzoo.ssc.zork.Command.CommandFactory;
-import io.muzoo.ssc.zork.Command.Commands;
+import io.muzoo.ssc.zork.CommandPackage.CommandFactory;
+import io.muzoo.ssc.zork.CommandPackage.Commands;
 import io.muzoo.ssc.zork.ZorkGame;
-import io.muzoo.ssc.zork.Map.MapGeneration;
+import io.muzoo.ssc.zork.MapPackage.MapGeneration;
 
 import java.io.FileNotFoundException;
-import java.util.HashMap;
 import java.util.Map;
 
 public class playCommand extends Commands {

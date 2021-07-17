@@ -1,7 +1,6 @@
-package io.muzoo.ssc.zork.Map;
+package io.muzoo.ssc.zork.MapPackage;
 
 import io.muzoo.ssc.zork.ZorkGame;
-import io.muzoo.ssc.zork.Map.*;
 
 
 import java.io.FileNotFoundException;
