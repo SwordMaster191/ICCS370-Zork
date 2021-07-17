@@ -36,10 +36,6 @@ public class goCommand extends Commands {
             return;
         }
 
-
-
-
-
         for(Room room: MapGeneration.listOfRoom){
             if(room.name.equals(currentRoom)){
                 cmp = room.neighbours.get(direction);
@@ -58,7 +54,7 @@ public class goCommand extends Commands {
 
                         ZorkGame.player.hp += 10;
                         System.out.println("You have generated 10hp, your current hp is: " + ZorkGame.player.hp);
-                    }
+                    } //implement enemy here
                     else {
                         return;
                     }

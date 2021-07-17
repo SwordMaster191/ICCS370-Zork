@@ -13,13 +13,16 @@ public class CommandFactory {
     public void putInCommand(ZorkGame game){
         commandMap.put("exit", new exitCommand(game));
         commandMap.put("help", new helpCommand(game));
-        commandMap.put("end", new endCommand(game));
+        commandMap.put("quit", new quitCommand(game));
         commandMap.put("play", new playCommand(game));
-        commandMap.put("move", new goCommand(game));
+        commandMap.put("go", new goCommand(game));
         commandMap.put("attack", new attackCommand(game));
         commandMap.put("use", new useCommand(game));
         commandMap.put("take", new takeCommand(game));
         commandMap.put("drop", new dropCommand(game));
+        commandMap.put("info", new infoCommand(game));
+        commandMap.put("load", new loadCommand(game));
+        commandMap.put("save", new saveCommand(game));
 
     }
     public static Map<String, Commands> getCommandMap() {

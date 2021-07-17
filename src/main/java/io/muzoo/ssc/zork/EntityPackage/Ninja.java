@@ -7,7 +7,8 @@ public class Ninja extends Stats{
         hp = 80;
         maxhp = 80;
         attack = 20;
-        defend = 0;
+        defend = 0.6;
+        agility = 0.5;
         inventory = null;
     }
 }

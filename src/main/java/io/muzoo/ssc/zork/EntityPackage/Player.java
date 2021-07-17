@@ -9,6 +9,7 @@ public class Player extends Stats{
         name = "Bob";
         hp = 100;
         maxhp = 150;
+        agility = 0;
         attack = 1;
         defend = 1;
         inventory = new HashMap<String, Item>();

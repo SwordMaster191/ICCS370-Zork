@@ -8,15 +8,15 @@ ITEM,MONSTER
 Armory,Courtyard,Common Room,Kitchen
 Kitchen
 None of the crucial supplies were looted, it seems like it's not the ninja this time...
-ITEM,MONSTER
+ITEM, MONSTER
 null,Hall,null,null
 Common Room
 Looks like no one is here...
 ITEM,MONSTER
-Armory,Cell,null,null
+Armory,null,null,null
 Armory
 The storage containers are stacked upon each other like a defensive emplacement.
-ITEM,Ninja
+ITEM,MONSTER
 Courtyard,null,Common Room,Infirmary
 Infirmary
 Bodies lay lifeless amongst the clinical beds.

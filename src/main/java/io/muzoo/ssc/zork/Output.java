@@ -29,6 +29,23 @@ public class Output {
                 System.out.println(room.name);
                 System.out.println(room.desc);
                 System.out.println("");
+                if(room.enemy == null) {
+                    System.out.println("Good news, no monster in this room!\n");
+                }
+                else{
+                    System.out.println("Enemy in this room: " + room.enemy.name);
+                    System.out.println("Enemy description: " + room.enemy.description);
+                    System.out.println("To initiate attack, type <attack [weapon]>");
+                }
+                System.out.println("");
+                if(room.item == null) {
+                    System.out.println("No item in this room.");
+                }
+                else{
+                    System.out.println("Item in this room: " + room.item.name);
+                    System.out.println("Item description: " + room.item.description);
+                }
+                System.out.println("");
                 System.out.println("Where you can go: " + room.neighbours);
             }
         }

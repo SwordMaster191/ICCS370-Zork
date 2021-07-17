@@ -4,9 +4,9 @@ import io.muzoo.ssc.zork.CommandPackage.Commands;
 import io.muzoo.ssc.zork.Output;
 import io.muzoo.ssc.zork.ZorkGame;
 
-public class endCommand extends Commands {
+public class quitCommand extends Commands {
     private ZorkGame game;
-    public endCommand(ZorkGame game){
+    public quitCommand(ZorkGame game){
         this.game = game;
     }
 

@@ -6,6 +6,6 @@ public class Sword extends Item {
         name = "Sword";
         description = "Just a dull sword";
         buff = 0;
-        debuff = 1;
+        debuff = 15;
     }
 }

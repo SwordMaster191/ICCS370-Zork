@@ -9,7 +9,8 @@ public abstract class Stats {
     public String description;
     public HashMap<String, Item> inventory;
     public int attack;
-    public int defend;
+    public double agility;
+    public double defend;
     public int maxhp;
     public int hp;
 }
